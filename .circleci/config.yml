@@ -19,7 +19,7 @@ jobs:
           command: "echo Hello, World!"
   say-hello-jc:
     steps:
-      -checkout
+      - checkout
       - run:
           name: "Say hello jc"
           command: "echo Hello, J.C.!"
